@@ -154,6 +154,12 @@ footer p {
     padding: 0 30px;
   }
 
+  .logo {
+    font-family: "Tangerine", cursive;
+    font-size: 52px;
+    color: #ecdbc9;
+  }
+
   header h1 {
     /* Sets 14 pixels of margin above and below the `h1` and sets 
         0 pixels of margin to the left and right. */
