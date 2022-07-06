@@ -93,7 +93,11 @@ header nav ul li:last-child a {
 /* -------  Join Form ------- */
 
 
-
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 form {
   border: 2px solid #6b1a22;
@@ -207,23 +211,16 @@ footer p {
     color: #bdbdbd;
   }
 
-  .group {
+  .form-group {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 
-  .grid2x2 {
-    min-height: 100%;
+  .group {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-  }
-  .grid2x2 > div {
-    display: flex; 
-    flex-basis: calc(50% - 40px);  
-    justify-content: center;
-    flex-direction: column;
+    align-items: flex-start;
   }
   
   .item-double {
