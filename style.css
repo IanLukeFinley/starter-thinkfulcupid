@@ -141,13 +141,28 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (max-width: 300px) {
+@media all and (max-width: 330px) {
   .logo {
     font-family: "Tangerine", cursive;
-    font-size: 42px;
+    font-size: 30px;
     color: #ecdbc9;
   }
+
+  .input-box {
+    width: 10px;
+  }
+
+  header nav ul li a {
+    color: #ecdbc9;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-size: 10px;
+  }
+  
+
 }
+
+
 
 
 @media all and (min-width: 480px) {
